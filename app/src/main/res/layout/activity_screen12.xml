@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="30dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#2D000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_gravity="bottom"
+                android:layout_weight="1">
+
+                <!-- First ImageView and TextView -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/cam"
+                        android:contentDescription="Gallery Icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#716565"
+                        android:text="Upload image"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <!-- Second ImageView and TextView -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:contentDescription="Circle Icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload VIdeo"
+                        android:textColor="#716565"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textSize="15dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="#E3E0E0"
+                android:text="Enter name"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="#716565"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hourly Rate"
+                android:textSize="15dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="#E3E0E0"
+                android:text="Enter hourly rate"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="#716565"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Description"
+                android:textSize="15dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="#E3E0E0"
+                android:text="Enter description"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="#716565"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="City"
+                android:textSize="15dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="#E3E0E0"
+                android:text="Islamabad"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="#716565"/>
+
+
+
+
+
+
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:background="#B86507"
+                android:text="Post Item"
+
+                android:textColor="@color/white" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
